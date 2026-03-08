@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap");
+* {
+  /* Reset some default styles */
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+}
+body {
+  /* Set the background color and center the content */
+  background-color: #0f172a;
+  color: #f8fafc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  /* Style the main container */
+  background-color: #1e293b;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  max-width: 90%;
+}
+h2 {
+  /* Style the heading */
+  text-align: center;
+  margin-top: 0;
+  color: #38bdf8;
+}
+.result-container {
+  /* Style the result display area */
+  background-color: #0f172a;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #334155;
+}
+#result {
+  /* Style the result text */
+  word-break: break-all;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  min-height: 28px;
+}
+.btn {
+  /* Style the main button */
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  /* Add a hover effect to the button */
+  background-color: #2563eb;
+}
+.copy-btn {
+  /* Style the copy button */
+  width: auto;
+  margin: 0;
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #10b981;
+}
+.copy-btn:hover {
+  /* Add a hover effect to the copy button */
+  background-color: #059669;
+}
+.setting {
+  /* Style the settings section */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  font-size: 1.1rem;
+}
+input[type="number"] {
+  /* Style the number input fields */
+  width: 70px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #334155;
+  background-color: #0f172a;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+}
+input[type="checkbox"] {
+  /* Style the checkbox input */
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
